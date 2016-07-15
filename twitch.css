@@ -1,0 +1,62 @@
+body{
+	background-color:grey;
+	
+}
+
+.twitch{
+	display:block;
+	margin-top:20px;
+	margin-left:20%;
+	margin-right:20%;
+	
+	min-height:600px;
+	
+}
+.header{
+	display:block;
+	margin-top:20px;
+	color:levender;
+	font-family:source serif pro;
+	font-size:20px;
+	padding-bottom:0px;
+	background-color:lightgrey;
+	border-radius:10px;
+
+}
+.all:hover,.online:hover,.offline:hover{
+color:grey;
+cursor:pointer;
+}
+.heading{
+	font-size:60px;
+	word-wrap:break-word;
+}
+ a:visited, a:link, a:active
+{
+    text-decoration: none;
+	color:#e9ece5;
+}
+a:hover{
+	color:white;
+}
+.link{
+	backgroung-color:rgb(142,167,164);
+}
+.streams{
+	
+	background-color:rgb(142,167,164);
+	color:grey;
+	height:50px;
+	font-size:20px;
+	border-radius:10px;
+	border-top:white solid 1px;
+	border-bottom:white solid 1px;
+	overflow:hidden !important;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	
+}
+.image{
+		
+	padding-right:20px;
+}
